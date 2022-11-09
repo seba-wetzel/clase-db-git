@@ -1,0 +1,30 @@
+{
+  "name": "clase-db-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": " node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seba-wetzel/clase-db-git.git"
+  },
+  "author": "seba-wetzel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seba-wetzel/clase-db-git/issues"
+  },
+  "homepage": "https://github.com/seba-wetzel/clase-db-git#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.25.5",
+    "sqlite3": "^5.1.2",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
